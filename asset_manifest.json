@@ -1,0 +1,184 @@
+{
+  "project": "Bluebonnet Homes RGV — Luxury Custom Home Builder Website",
+  "generatedAt": "2026-10-22T04:04:00+03:00",
+  "videos": {
+    "heroMaster4K": {
+      "sourcePath": "ASSETS/reference image for video gen/header video design.mp4",
+      "publicPath": "/videos/header-video-design.mp4",
+      "width": 3840,
+      "height": 2160,
+      "fps": 30,
+      "durationSeconds": 19,
+      "sizeBytes": 53823397,
+      "role": "Hero & Scroll-Linked Architectural Transformation Video"
+    },
+    "constructionTimelapse": {
+      "sourcePath": "ASSETS/reference image for video gen/basic reference/AI Vid gen 1.mp4",
+      "publicPath": "/videos/construction-timelapse.mp4",
+      "durationSeconds": 14,
+      "sizeBytes": 2886874,
+      "role": "Blueprint-to-Twilight Construction Timelapse"
+    }
+  },
+  "dayNightSequence": {
+    "resolution": { "width": 1672, "height": 941, "aspectRatio": "16:9", "pixelLocked": true },
+    "states": [
+      {
+        "id": "daylight",
+        "label": "South Texas Daylight",
+        "timeLabel": "11:00 AM · 5500K Direct Sun",
+        "publicPath": "/images/day-night/01-daylight.jpg",
+        "sourceMaster": "ASSETS/reference image for video gen/basic reference/Modern Luxury Home with Landscaped Driveway-1.png"
+      },
+      {
+        "id": "golden-hour",
+        "label": "Rio Grande Golden Hour",
+        "timeLabel": "6:45 PM · 3500K Raking Sunset",
+        "publicPath": "/images/day-night/02-golden-hour.jpg",
+        "sourceMaster": "ASSETS/reference image for video gen/basic reference/March-2026-Blogs-Images-2.png"
+      },
+      {
+        "id": "blue-hour",
+        "label": "Blue Hour Twilight",
+        "timeLabel": "7:30 PM · Cobalt Dusk & 2700K Sconces",
+        "publicPath": "/images/day-night/03-blue-hour.jpg",
+        "sourceMaster": "Radiometric SkyFlood Synthesis from Daylight + Dusk Masters"
+      },
+      {
+        "id": "night",
+        "label": "Starlit Nocturnal Residence",
+        "timeLabel": "9:15 PM · Warm Architectural Illumination",
+        "publicPath": "/images/day-night/04-night.jpg",
+        "sourceMaster": "Radiometric Nocturnal Synthesis from Daylight + Dusk Masters"
+      }
+    ],
+    "constructionStages": [
+      {
+        "id": "framing",
+        "stageNumber": "01",
+        "label": "CMU Block & Engineered Roof Trusses",
+        "publicPath": "/images/day-night/stage-01-framing.jpg"
+      },
+      {
+        "id": "enclosure",
+        "stageNumber": "02",
+        "label": "Weather Barrier, Stucco & Paver Grid",
+        "publicPath": "/images/day-night/stage-02-enclosure.jpg"
+      },
+      {
+        "id": "daylight-complete",
+        "stageNumber": "03",
+        "label": "Completed Residence — Daylight",
+        "publicPath": "/images/day-night/stage-03-daylight.jpg"
+      },
+      {
+        "id": "twilight-complete",
+        "stageNumber": "04",
+        "label": "Completed Residence — Twilight Commissioning",
+        "publicPath": "/images/day-night/stage-04-twilight.jpg"
+      }
+    ]
+  },
+  "brand": {
+    "logoDark": "/brand/blubonnet-logo.svg",
+    "logoLight": "/brand/blubonnet-logo-white.svg",
+    "crestImage": "/brand/portfolio-logos-3.png",
+    "costGuidePdf": "/documents/Bluebonnet-Homes-Cost-Guide.pdf"
+  },
+  "generatedDetails": [
+    {
+      "id": "detail-entry-columns-sconces",
+      "publicPath": "/images/generated/detail-entry-columns-sconces.jpg",
+      "width": 1200,
+      "height": 900,
+      "caption": "Twin Charcoal Columns & Integrated Warm LED Lattice Sconces"
+    },
+    {
+      "id": "detail-masonry-1620",
+      "publicPath": "/images/generated/detail-masonry-1620.jpg",
+      "width": 1200,
+      "height": 900,
+      "caption": "Hand-Troweled Warm Ivory Stucco & Charcoal Slate Cladding"
+    },
+    {
+      "id": "detail-structural-framing",
+      "publicPath": "/images/generated/detail-structural-framing.jpg",
+      "width": 1200,
+      "height": 900,
+      "caption": "Reinforced Concrete Block & Engineered South Texas Windstorm Framing"
+    },
+    {
+      "id": "detail-blueprint-drafting",
+      "publicPath": "/images/generated/detail-blueprint-drafting.jpg",
+      "width": 1280,
+      "height": 720,
+      "caption": "Bespoke Architectural Floor Plans & Milestone Engineering"
+    },
+    {
+      "id": "detail-timber-structure",
+      "publicPath": "/images/generated/detail-timber-structure.jpg",
+      "width": 1280,
+      "height": 720,
+      "caption": "Precision Dimensional Lumber & Insulated Envelope Framing"
+    },
+    {
+      "id": "detail-energy-efficiency",
+      "publicPath": "/images/generated/detail-energy-efficiency.jpg",
+      "width": 1280,
+      "height": 720,
+      "caption": "High-SEER2 Climate Zoning & Smart Thermal Envelope Management"
+    }
+  ],
+  "portfolioResidences": [
+    {
+      "slug": "the-onyx-and-ivory",
+      "name": "The Onyx & Ivory",
+      "location": "Edinburg, TX",
+      "year": "2025",
+      "style": "Bold Contemporary / Transitional",
+      "sqft": "2,700 sq ft",
+      "beds": 4,
+      "baths": 3.5,
+      "heroImage": "/images/optimized/onyx-ivory/hero-exterior-daylight.jpg",
+      "twilightImage": "/images/optimized/onyx-ivory/hero-exterior-golden-hour.jpg",
+      "galleryDir": "/images/optimized/onyx-ivory/"
+    },
+    {
+      "slug": "the-bentley-blanc",
+      "name": "The Bentley Blanc",
+      "location": "Edinburg, TX",
+      "year": "2024",
+      "style": "Modern Mediterranean / Minimalist",
+      "sqft": "5,100 sq ft",
+      "beds": 5,
+      "baths": 6,
+      "heroImage": "/images/optimized/bentley-blanc/genMbmob.427243_2_1-e1776196976349.jpg",
+      "aerialImage": "/images/optimized/bentley-blanc/genMbmob.427243_1_1.jpg",
+      "galleryDir": "/images/optimized/bentley-blanc/"
+    },
+    {
+      "slug": "the-andalusian-estate",
+      "name": "The Andalusian Estate",
+      "location": "Edinburg, TX",
+      "year": "2016",
+      "style": "Tuscan / Spanish Mediterranean",
+      "sqft": "4,103 sq ft",
+      "beds": 4,
+      "baths": 4.5,
+      "heroImage": "/images/optimized/andalusian/rio-grande-valley-custom-home-construction-energy-efficient-design-south-texas.jpg",
+      "galleryDir": "/images/optimized/andalusian/"
+    },
+    {
+      "slug": "the-via-cantera-estate",
+      "name": "The Via Cantera Estate",
+      "location": "McAllen, TX",
+      "year": "2008",
+      "style": "Classic Mediterranean Luxury",
+      "sqft": "4,774 sq ft",
+      "beds": 5,
+      "baths": 6,
+      "heroImage": "/images/optimized/via-cantera/rio-grande-valley-custom-home-builders-south-texas-energy-efficient-luxury-residential-design.jpg",
+      "galleryDir": "/images/optimized/via-cantera/"
+    }
+  ]
+}

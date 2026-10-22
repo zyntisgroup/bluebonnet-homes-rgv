@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-ivory: #F5F0E7;
+  --bg-limestone: #E7DCCB;
+  --bg-sand: #D8C7AF;
+  --text-taupe: #A39482;
+  --text-espresso: #302820;
+  --bg-obsidian: #181410;
+  --accent-brass: #B49A68;
+  --border-hairline: rgba(48, 40, 32, 0.12);
+  --border-hairline-dark: rgba(245, 240, 231, 0.14);
+}
+
+@layer base {
+  html {
+    background-color: var(--bg-ivory);
+    color: var(--text-espresso);
+    font-family: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: "Cormorant Garamond", "Playfair Display", Georgia, "Times New Roman", serif;
+    letter-spacing: -0.022em;
+  }
+}
+
+/* Subtle architectural blueprint grid overlay */
+.bg-architectural-grid {
+  background-image:
+    linear-gradient(to right, rgba(48, 40, 32, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(48, 40, 32, 0.045) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+.bg-architectural-grid-dark {
+  background-image:
+    linear-gradient(to right, rgba(245, 240, 231, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(245, 240, 231, 0.04) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #EFE8DC;
+}
+::-webkit-scrollbar-thumb {
+  background: #B9A992;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #302820;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
